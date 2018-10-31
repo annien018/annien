@@ -16,6 +16,16 @@
     padding:1rem;
 }
 
+.section-padding{
+    padding:1rem;
+}
+
+code{
+    background-color: #EEE;
+    padding:0.5rem;
+    display: block;
+}
+
 /* ------------------------------------------------------------------------------------------------------------------------------ */
 /* Text */
 body{
