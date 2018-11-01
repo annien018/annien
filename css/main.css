@@ -19,7 +19,12 @@
 code{
     background-color: #EEE;
     padding:1rem;
+    margin-top:1rem;
     display: block;
+}
+.code-div{
+    background-color: #EEE;
+
 }
 
 
@@ -49,6 +54,9 @@ code{
     .citation-element{
         padding:1rem;
     }
+    .interactive-element{
+        padding:1rem;
+    }
 }
 
 @media (min-width: 600px){
@@ -65,6 +73,10 @@ code{
         padding-right:4rem;
     }
     .citation-element{
+        padding-left:4rem;
+        padding-right:4rem;
+    }
+    .interactive-element{
         padding-left:4rem;
         padding-right:4rem;
     }
@@ -119,10 +131,21 @@ a{
     padding-bottom:1rem;
 }
 
+.in-text-link{
+    text-decoration: none;
+    color:black;
+    border-bottom:2px solid yellow;
+    transition:all 0.2s;
+}
+
+.in-text-link:hover, .in-text-link:focus{
+    margin-bottom:-1rem;
+    border-bottom:5px solid yellow;
+}
+
 /* ------------------------------------------------------------------------------------------------------------------------------ */
 /* Navigation */
 .menu-icon {
-    color:grey;
     font-size:2rem;
     display:none;
 }
@@ -140,7 +163,7 @@ a{
     display: block;
     text-align: center;
     transition:all 0.3s;
-    color:grey;
+    color:black;
 }
 
 .nav-bar a:hover, .nav-bar a:focus{
@@ -239,10 +262,22 @@ a{
 
 /* ------------------------------------------------------------------------------------------------------------------------------ */
 /* Buttons */
+.btn{
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  color: black;
+  background-color: transparent;
+  transition:all 0.5s;
+  text-decoration: none;
+  border: 1px solid #DD5A24;
+  border-radius: 2px;
+  text-align: center;
+}
 
-
-
-
+.btn:hover, .btn:focus {
+    background-color: #c44829;
+    color:white;
+  }
 
 
 
