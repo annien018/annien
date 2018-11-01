@@ -174,13 +174,6 @@ a{
     overflow: hidden;
 }
 
-.nav-item{
-    margin:1rem;
-}
-
-.nav-item:hover, .nav-item:focus{
-    border-bottom:3px solid #DD5A24;
-}
 
 .logo{
     max-width:8rem;
@@ -216,6 +209,7 @@ a{
     }
     .nav-item{
         padding:1rem;
+        margin:0.4rem;
     }
     .nav-item-border{
         border-top:1px solid rgba(128, 128, 128, 0.589);
@@ -236,6 +230,17 @@ a{
         right:0;
         padding:1rem 1rem 0 1rem;
         opacity:0.96;
+    }
+    .nav-item{
+        padding-left:0.15rem;
+        padding-bottom:0.25rem;
+        padding-right:0.15rem;
+        margin-top:0.9rem;
+        margin-left:1.5rem;
+        margin-right:1.5rem;
+    }
+    .nav-item:hover, .nav-item:focus{
+        border-bottom:3px solid #DD5A24;
     }
 }
 
