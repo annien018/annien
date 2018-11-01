@@ -10,32 +10,40 @@
     <link href="css/normalize.css" rel="stylesheet">
 
     <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <header class="main-header">
-        <a href="index.html"><img class="logo" src="img/logo.svg" alt="logo-img"></a>
-        <nav class="nav-bar">
-            <a class="nav-item" href="#">Guide</a>
-            <a class="nav-item" href="#">Home</a>
-            <a class="nav-item" href="#">About</a>
-            <a class="nav-item" href="#">Contact</a>
-        </nav>
-        <h1 class="text-h1-large">This is my Style Guide</h1>
-        <a class="header-link" href="about.html">Learn more about me</a>
+        <div class="top-nav">
+            <a class="logo-link" href="index.html"><img class="logo" src="img/logo.svg" alt="logo-img"></a>
+            <nav id="myNav" class="nav-bar">
+                <a class="nav-item" href="#">Guide</a>
+                <a class="nav-item" href="#">Home</a>
+                <a class="nav-item" href="#">About</a>
+                <a class="nav-item" href="#">Contact</a>
+                <a href="javascript:void(0);" class="menu-icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </nav>
+        </div>
+        <div class="page-heading clear-float">
+            <h1 class="text-h1-large">This is my Style Guide</h1>
+            <a class="header-link" href="about.html">Learn more about me</a>
+        </div>
     </header>
 
-    <section class="section-border section-padding">
+    <section class="section-border">
         <section class="text-element">
             <h1 class="text-h1-large">H1 Text Large</h1>
             <h1 class="text-h1-small">H1 Text Small</h1>
             <h2 class="text-h2-large">H2 Text Large</h2>
             <h2 class="text-h2-small">H2 Text Small</h2>
-            <h3 class="text-h3-large">H3 Text</h3>
-            <h3 class="text-h3-small">H3 Text</h3>
-            <h4 class="text-h4-large">H4 Text</h4>
-            <h4 class="text-h4-small">H4 Text</h4>
-            <p class="par">paragraph text</p>
+            <h3 class="text-h3-large">H3 Text Large</h3>
+            <h3 class="text-h3-small">H3 Text Small</h3>
+            <h4 class="text-h4-large">H4 Text Large</h4>
+            <h4 class="text-h4-small">H4 Text Small</h4>
+            <p class="par">paragraph text paragraph text paragraph text paragraph text</p>
 
             <code>
                     &lt;h1 class="text-h1-large"&gt;H1 Text Large&lt;/h1&gt;
@@ -46,18 +54,21 @@
                     &lt;h3 class="text-h3-small"&gt;H3 Text&lt;/h3&gt;
                     &lt;h4 class="text-h4-large"&gt;H4 Text&lt;/h4&gt;
                     &lt;h4 class="text-h4-small"&gt;H4 Text&lt;/h4&gt;
-                    &lt;p class="par"&gt;paragraph text&lt;/p&gt;
+                    &lt;p class="par"&gt;paragraph text paragraph text paragraph text paragraph text&lt;/p&gt;
             </code>
         </section>
     </section>
 
     <section class="section-border">
-        <section class="citation">
+        <section class="section-citation">
             <h1 class="text-h1-small">Citation</h1>
-            <ul>
+            <ul class="ul-citation">
                 <li>
-                    Necolas. Coder. 2015. <strong>Normalise CSS [Code]</strong>. Retrieved from <a href="https://necolas.github.io/normalize.css/"
-                        class="no-margin">https://necolas.github.io/normalize.css/</a>
+                    Necolas. Coder. 2015. <strong>Normalise CSS [Tutorial]</strong>. Retrieved from <a href="https://necolas.github.io/normalize.css/">https://necolas.github.io/normalize.css/</a>
+                </li>
+                <li>
+                    W3Schools. n.d. <strong>How to create a responsive top navigation [Tutorial]</strong>. Retrieved
+                    from <a href="https://www.w3schools.com/howto/howto_js_topnav_responsive.asp">https://www.w3schools.com/howto/howto_js_topnav_responsive.asp</a>
                 </li>
             </ul>
         </section>
@@ -65,6 +76,8 @@
     <footer>
 
     </footer>
+    
+    <script src="js/script.js"></script>
 </body>
 
 </html>
