@@ -4,27 +4,45 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=width-device, initial-scale=1">
-    <title>Annie Nguyen | Home</title>
+    <title>Annie Nguyen | Style Guide</title>
 
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+
     <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <header>
-        <a href="index.html"><img class="logo" src="img/logo.svg" alt="logo-img"></a>
-        <nav id="myNav" class="nav-bar">
-            <a class="nav-item" href="#">Home</a>
-            <a class="nav-item" href="#">About</a>
-            <a class="nav-item" href="#">Contact</a>
-        </nav>
-        <h1 class="text-h1">I am a visual designer. I live in Vancouver and am currently finishing my bachelor in Interactive Arts and Technology at Simon Fraser University.</h1>
-        <a class="header-link" href="about.html"></a>
-
+    <header class="main-header">
+        <div class="top-nav">
+            <nav id="myNav" class="nav-bar">
+                <div class="nav-bar-div">
+                    <a class="logo-link" href="index.html"><img class="logo" src="img/logo.svg" alt="logo-img"></a>
+                    <a class="nav-item nav-item-border" href="index.html">Home</a>
+                    <a class="nav-item" href="style-guide.html">Guide</a>
+                    <a class="nav-item nav-item-border" href="about.html">About</a>
+                    <a class="nav-item nav-item-border" href="contact.html">Contact</a>
+                </div>
+                <div class="menu-icon-div">
+                    <a class="menu-icon" href="javascript:void(0);" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </nav>
+        </div>
     </header>
-    <section>
 
+    <section class="border-line">
     </section>
+
+    <section class="page-heading">
+        <section class="heading-element">
+            <h1 class="heading text-h1-large">I am a visual designer living in Vancouver. </h1>
+            <a class="header-link" href="about.html">More about me</a>
+        </section>
+    </section>
+
     <footer>
 
     </footer>
