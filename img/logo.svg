@@ -3,12 +3,10 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 770.3 158.1" style="enable-background:new 0 0 770.3 158.1;" xml:space="preserve">
 <g id="XMLID_156_">
-	<path id="XMLID_214_" style="fill:#DD5A24;" d="M129.2,151.1l-13.7-33H41l-13.7,33H7.9l62.8-144H86l62.5,144H129.2z M78.6,28
-		L41,118.1h74.5L78.6,28z M37,125.1l41.6-99.4l40.8,99.4H37z"/>
+	<path id="XMLID_214_" style="fill:#DD5A24;" d="M27.3,151.1L78.6,25.6l50.6,125.4h19.4L86,7.1H70.7l-62.8,144H27.3z"/>
 	<path id="XMLID_212_" style="fill:#DD5A24;" d="M300.9,151.1l-93-114.7v114.7h-12V7.1h13.5l90.5,116.5V7.1h13v144H300.9z"/>
 	<path id="XMLID_210_" style="fill:#DD5A24;" d="M492.4,151.1L396.9,36.3v114.7h-13V7.1h16.9l87.1,116.5V7.1h20v144H492.4z"/>
 	<path id="XMLID_208_" style="fill:#DD5A24;" d="M573.9,151.1V7.1h16v144H573.9z"/>
 	<path id="XMLID_190_" style="fill:#DD5A24;" d="M655.9,151.1V7.1h103v14h-84v51h70v14h-70v50h84v15H655.9z"/>
 </g>
-<polygon id="XMLID_155_" style="fill:#FFFFFF;" points="37,128.1 78.6,28.6 119.4,128.1 "/>
 </svg>
