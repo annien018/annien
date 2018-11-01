@@ -136,6 +136,8 @@ a{
     color:black;
     border-bottom:2px solid #DD5A24;
     transition:all 0.3s;
+    padding-left: 0.17rem;
+    padding-right:0.17rem;
 }
 
 .in-text-link:hover, .in-text-link:focus{
