@@ -16,22 +16,30 @@
 <body>
     <header class="main-header">
         <div class="top-nav">
-            <a class="logo-link" href="index.html"><img class="logo" src="img/logo.svg" alt="logo-img"></a>
             <nav id="myNav" class="nav-bar">
-                <a class="nav-item" href="#">Guide</a>
-                <a class="nav-item" href="#">Home</a>
-                <a class="nav-item" href="#">About</a>
-                <a class="nav-item" href="#">Contact</a>
-                <a href="javascript:void(0);" class="menu-icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                </a>
+                <div class="nav-bar-div">
+                    <a class="logo-link" href="index.html"><img class="logo" src="img/logo.svg" alt="logo-img"></a>
+                    <a class="nav-item" href="style-guide.html">Guide</a>
+                    <a class="nav-item nav-item-border" href="index.html">Home</a>
+                    <a class="nav-item nav-item-border" href="about.html">About</a>
+                    <a class="nav-item nav-item-border" href="contact.html">Contact</a>
+                </div>
+                <div class="menu-icon-div">
+                    <a class="menu-icon" href="javascript:void(0);" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
             </nav>
         </div>
-        <div class="page-heading clear-float">
+    </header>
+
+    <section class="border-line">
+    </section>
+
+    <section class="page-heading">
             <h1 class="text-h1-large">This is my Style Guide</h1>
             <a class="header-link" href="about.html">Learn more about me</a>
-        </div>
-    </header>
+    </section>
 
     <section class="section-border">
         <section class="text-element">
@@ -76,7 +84,7 @@
     <footer>
 
     </footer>
-    
+
     <script src="js/script.js"></script>
 </body>
 
