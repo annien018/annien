@@ -134,15 +134,14 @@ a{
 .in-text-link{
     text-decoration: none;
     color:black;
-    border-bottom:2px solid #DD5A24;
+    border-bottom:3px solid #FFD046;
     transition:all 0.3s;
     padding-left: 0.17rem;
     padding-right:0.17rem;
 }
 
 .in-text-link:hover, .in-text-link:focus{
-    background-color: #DD5A24;
-    color:white;
+    background-color: #FFD046;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------ */
@@ -166,10 +165,6 @@ a{
     text-align: center;
     transition:all 0.3s;
     color:black;
-}
-
-.nav-bar a:hover, .nav-bar a:focus{
-    color:#DD5A24;
 }
 
 .nav-bar{
@@ -242,7 +237,7 @@ a{
         margin-right:1.5rem;
     }
     .nav-item:hover, .nav-item:focus{
-        border-bottom:3px solid #DD5A24;
+        border-bottom:5px solid #FFD046;
     }
 }
 
@@ -255,15 +250,16 @@ a{
 /* Social Media Icons */
 .social-media-icon{
     color:#DD5A24;
-    margin-right:3rem;
+    padding:1rem;
+    width:3rem;
     display:inline-block;
+    text-align: center;
     transition: all 0.5s;
 }
 
 .social-media-icon:hover, .social-media-icon:focus{
-    padding:1rem;
-    background-color:#3d5b99;
-    color:white;
+    background-color: #FFD046;
+    color:black;
 }
 
 
@@ -282,7 +278,7 @@ a{
     transition:all 0.3s;
 }
 .header-link:hover, .header-link:focus{
-    border-bottom:3px solid #DD5A24;
+    border-bottom:5px solid #DD5A24;
 }
 
 
