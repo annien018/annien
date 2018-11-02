@@ -467,3 +467,12 @@ footer{
         padding-top:2.3rem;
     }
 }
+
+@media (min-width:1300px){
+    footer{
+        position: absolute;
+        bottom:0;
+        padding:0;
+        width:100%;
+    }
+}
