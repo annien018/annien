@@ -251,6 +251,22 @@ a{
 /* Images */
 
 
+
+/* Social Media Icons */
+.social-media-icon{
+    color:#DD5A24;
+    margin-right:3rem;
+    display:inline-block;
+    transition: all 0.5s;
+}
+
+.social-media-icon:hover, .social-media-icon:focus{
+    padding:1rem;
+    background-color:#3d5b99;
+    color:white;
+}
+
+
 /* ------------------------------------------------------------------------------------------------------------------------------ */
 /* Heading */
 @media (max-width:600px){
