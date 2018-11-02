@@ -34,6 +34,7 @@ code{
 
 .section-border{
     border-top:1px solid rgba(128, 128, 128, 0.404);
+    padding-bottom:5rem;
 }
 
 .branding-element-color{
@@ -75,7 +76,7 @@ code{
     .heading-element{
         padding-left:9rem;
         padding-right:9rem;
-        padding-bottom:7rem;
+        padding-bottom:2rem;
         padding-top:7rem;
     }
     .text-element{
@@ -192,7 +193,6 @@ a{
     overflow: hidden;
 }
 
-
 .logo{
     max-width:8rem;
     width:100%;
@@ -236,10 +236,11 @@ a{
 
 @media (min-width: 630px){
     .logo-link{
-        padding-right:8rem;
+        padding-right:13rem;
         padding-left:2rem;
     }
     .top-nav{
+        z-index: 999;
         position: fixed;
         background-color:white;
         border-bottom:1px solid rgba(128, 128, 128, 0.507);
@@ -254,8 +255,8 @@ a{
         padding-bottom:0.25rem;
         padding-right:0.15rem;
         margin-top:0.7rem;
-        margin-left:1.5rem;
-        margin-right:1.5rem;
+        margin-left:1.85rem;
+        margin-right:1.85rem;
     }
     .nav-item:hover, .nav-item:focus{
         border-bottom:5px solid #FFD046;
@@ -289,7 +290,6 @@ a{
 @media (max-width:630px){
     .page-heading{
         padding-top:2rem;
-        padding-bottom:1rem;
         clear:both;
     }
 }
@@ -422,9 +422,12 @@ a{
 mark{
     opacity:0.7;
     background-color: rgba(128, 128, 128, 0.479);  
-    border-radius: 8px;
+    border-radius: 5px;
     padding:0.5rem;
     font-family: 'Roboto', sans-serif;
+    margin-right:0.5rem;
+    margin-top:0.5rem;
+    line-height: 2rem;
 }
 
 .project-img{
@@ -434,11 +437,15 @@ mark{
 .p-img-description{
     opacity:0.5;
     font-size:0.9em;
+    margin-top:-0.5rem;
 }
 
 @media (max-width:630px){
     .project-description{
         padding:2rem;
+    }
+    mark{
+        float:left;
     }
 }
 
