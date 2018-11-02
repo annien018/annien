@@ -236,7 +236,7 @@ a{
 
 @media (min-width: 630px){
     .logo-link{
-        padding-right:13rem;
+        margin-right:13rem;
         padding-left:2rem;
     }
     .top-nav{
