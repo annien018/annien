@@ -353,10 +353,46 @@ a{
 /* About */
 .me-image{
     max-width: 20rem;
-    padding-top:5rem;
-    padding-bottom:5rem;
 }
 
+.about-me-image{
+    float:left;
+}
+
+.about-me-text{
+    float: left;
+}
+
+@media (min-width:630px){
+    .about-me-image{
+        width:50%;
+        padding-top:5rem;
+        padding-bottom:5rem;
+        text-align: center;
+    }
+    .about-me-text{
+        width: 50%;
+        padding-top:5rem;
+        padding-bottom:5rem;
+        padding-right:5rem;
+    }
+}
+
+@media (max-width:630px){
+    .about-me-image{
+        width:100%;
+        padding-top:5rem;
+        padding-bottom:5rem;
+        text-align: center;
+    }
+    .about-me-text{
+        width: 100%;
+        padding-top:1rem;
+        padding-bottom:5rem;
+        padding-right:1rem;
+        padding-left:1rem;
+    }
+}
 
 /* ------------------------------------------------------------------------------------------------------------------------------ */
 /* Home/ Projects Showcase */
