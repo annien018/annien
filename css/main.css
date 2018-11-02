@@ -9,7 +9,7 @@
 /* General Structure */
 *, *:before, *:after{
     box-sizing: border-box;
-  }
+}
 
 .main-header{
     padding:1rem;
@@ -42,7 +42,7 @@ code{
     text-align: center;
 }
 
-@media (max-width: 600px){
+@media (max-width: 630px){
     .border-line{
         border-top:1px solid grey;
         opacity:0.3;
@@ -69,7 +69,7 @@ code{
     }
 }
 
-@media (min-width: 600px){
+@media (min-width: 630px){
     .border-line{
         border:none;
         margin-top:2rem;
@@ -170,7 +170,7 @@ a{
 /* ------------------------------------------------------------------------------------------------------------------------------ */
 /* Navigation */
 .menu-icon {
-    font-size:1.8rem;
+    font-size:1.6rem;
     display:none;
 }
 
@@ -207,8 +207,8 @@ a{
     transform:scale(1.025);
 }
 
-/* When the screen is less than 600 pixels wide, hide all links.  */
-@media (max-width: 600px) {
+/* When the screen is less than 630 pixels wide, hide all links.  */
+@media (max-width: 630px) {
     .nav-bar a:not(:first-child) {display: none;}
     .nav-bar a.menu-icon {
       float: right;
@@ -236,7 +236,7 @@ a{
     }
 }
 
-@media (min-width: 600px){
+@media (min-width: 630px){
     .logo-link{
         padding-right:8rem;
         padding-left:2rem;
@@ -288,7 +288,7 @@ a{
 
 /* ------------------------------------------------------------------------------------------------------------------------------ */
 /* Heading */
-@media (max-width:600px){
+@media (max-width:630px){
     .page-heading{
         padding-top:2rem;
         clear:both;
@@ -356,3 +356,51 @@ a{
 
 /* ------------------------------------------------------------------------------------------------------------------------------ */
 /* Footer */
+footer{
+    overflow: hidden;
+    background-color: black;
+    color:white;
+}
+
+.footer-item-contact{
+    float:left;
+}
+.footer-item-name{
+    float:left;
+}
+
+@media (max-width:630px){
+    footer{
+        padding-bottom:1rem;
+    }
+    .footer-item-contact{
+        text-align: center;
+        width:100%;
+    }
+    .footer-item-name{
+        opacity:0.7;
+        text-align: center;
+        width:100%;
+        font-size:0.8em;
+        padding-top:2rem;
+    }
+}
+
+@media (min-width:630px){
+    footer{
+        padding-bottom:1rem;
+    }
+    .footer-item-contact{
+        width:45%;
+        text-align: right;
+        padding-right:3rem;
+        padding-top:2rem;
+    }
+    .footer-item-name{
+        opacity:0.7;
+        width:55%;
+        font-size:0.85em;
+        text-align: right;
+        padding-top:2.3rem;
+    }
+}
