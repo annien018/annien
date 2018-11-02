@@ -79,24 +79,24 @@ code{
         padding-top:7rem;
     }
     .text-element{
-        padding-left:4rem;
-        padding-right:4rem;
+        padding-left:9rem;
+        padding-right:9rem;
     }
     .citation-element{
-        padding-left:4rem;
-        padding-right:4rem;
+        padding-left:9rem;
+        padding-right:9rem;
     }
     .interactive-element{
-        padding-left:4rem;
-        padding-right:4rem;
+        padding-left:9rem;
+        padding-right:9rem;
     }
     .branding-element{
-        padding-left:4rem;
-        padding-right:4rem;
+        padding-left:9rem;
+        padding-right:9rem;
     }
     .branding-element-fonts{
-        padding-left:4rem;
-        padding-right:4rem;
+        padding-left:9rem;
+        padding-right:9rem;
     }
 }
 
@@ -239,7 +239,7 @@ a{
 
 @media (min-width: 630px){
     .logo-link{
-        margin-right:13rem;
+        margin-right:5rem;
         margin-left:2rem;
     }
     .top-nav{
@@ -521,7 +521,7 @@ footer{
     }
 }
 
-@media (min-width:1300px){
+@media (min-width:1950px){
     footer{
         position: absolute;
         bottom:0;
