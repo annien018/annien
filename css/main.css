@@ -49,7 +49,6 @@ code{
     }
     .heading-element{
         padding:2rem;
-        padding-bottom:4rem;
     }
     .text-element{
         padding:1rem;
@@ -111,6 +110,10 @@ body{
 
 h1, h2, h3, h4{
     font-family: 'Roboto', sans-serif;
+}
+
+.low-opacity-header{
+    opacity: 0.3;
 }
 
 .text-h1-large{
@@ -367,13 +370,11 @@ a{
 @media (min-width:630px){
     .about-me-image{
         width:50%;
-        padding-top:5rem;
         padding-bottom:5rem;
         text-align: center;
     }
     .about-me-text{
         width: 50%;
-        padding-top:5rem;
         padding-bottom:5rem;
         padding-right:5rem;
     }
@@ -382,7 +383,6 @@ a{
 @media (max-width:630px){
     .about-me-image{
         width:100%;
-        padding-top:5rem;
         padding-bottom:5rem;
         text-align: center;
     }
