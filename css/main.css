@@ -34,8 +34,6 @@ code{
 
 .section-border{
     border-top:1px solid rgba(128, 128, 128, 0.404);
-    padding-top:1rem;
-    padding-bottom:1rem;
 }
 
 .branding-element-color{
@@ -351,12 +349,41 @@ a{
     padding:1rem;
 }
 
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+/* About */
+.me-image{
+    max-width: 20rem;
+    padding-top:5rem;
+    padding-bottom:5rem;
+}
 
 
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+/* Home/ Projects Showcase */
+.prj-img{
+    width:100%
+}
+
+.project-holder{
+    float: left;
+}
+
+@media (min-width:630px){
+    .project-holder{
+        max-width: 33.33%;
+    }
+}
+
+@media (max-width:630px){
+    .project-holder{
+        max-width: 100%;
+    }
+}
 
 /* ------------------------------------------------------------------------------------------------------------------------------ */
 /* Footer */
 footer{
+    clear: both;
     overflow: hidden;
     background-color: black;
     color:white;
