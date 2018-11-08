@@ -160,7 +160,11 @@ a{
     text-decoration: none;
     color:black;
     border-bottom:3px solid #FFD046;
-    transition:all 0.3s;
+    transition:all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
     padding-left: 0.17rem;
     padding-right:0.17rem;
 }
@@ -188,7 +192,11 @@ a{
     float:left;
     display: block;
     text-align: center;
-    transition:all 0.3s;
+    transition:all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
     color:black;
 }
 
@@ -199,7 +207,11 @@ a{
 .logo{
     max-width:8rem;
     width:100%;
-    transition:all 0.3s;
+    transition:all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
     padding-top:0.25rem;
     padding-bottom:1rem;
 }
@@ -279,7 +291,11 @@ a{
     width:3rem;
     display:inline-block;
     text-align: center;
-    transition: all 0.5s;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
 }
 
 .social-media-icon:hover, .social-media-icon:focus{
@@ -300,7 +316,11 @@ a{
 .header-link{
     text-decoration: none;
     color: #DD5A24;
-    transition:all 0.3s;
+    transition:all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
 }
 .header-link:hover, .header-link:focus{
     border-bottom:5px solid #DD5A24;
@@ -398,24 +418,70 @@ a{
 /* ------------------------------------------------------------------------------------------------------------------------------ */
 /* Home/ Projects Showcase */
 .prj-img{
-    width:100%
+    float:left;
+    width:28rem;
+    height:28rem;
+    overflow: hidden;
 }
 
 .project-holder{
     float: left;
+    overflow:hidden;
+    position: relative;
+    overflow: hidden;
 }
 
-@media (min-width:630px){
+.project-info-bg{
+    background-color: rgba(0,0,0,0.65);
+    top:1rem;
+    bottom:1rem;
+    right:1rem;
+    left:1rem;
+    color:white;
+    position: absolute;
+    text-align: center;
+}
+
+.project-info{
+    padding-top:10rem;
+}
+
+.project-info h2{
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+}
+
+.project-holder .project-info-bg{
+    cursor: pointer;
+    position: absolute;
+    opacity:0;
+    -webkit-transition: all 0.45s ease-in-out;
+    -moz-transition: all 0.45s ease-in-out;
+    -o-transition: all 0.45s ease-in-out;
+    -ms-transition: all 0.45s ease-in-out;
+    transition: all 0.45s ease-in-out;   
+}
+
+.project-holder:hover .project-info-bg{
+    opacity:1;
+}
+
+@media (min-width:1007px){
     .project-holder{
         max-width: 33.33%;
     }
 }
 
-@media (max-width:630px){
+@media (max-width:1007px){
     .project-holder{
         max-width: 100%;
     }
+    .prj-img{
+        max-width:100%;
+        height:auto;
+    }
 }
+
 
 /* ------------------------------------------------------------------------------------------------------------------------------ */
 /* Project Description */
