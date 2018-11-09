@@ -73,30 +73,30 @@ code{
         margin-top:2rem;
     }
     .heading-element{
-        padding-left:9rem;
-        padding-right:9rem;
+        padding-left:15rem;
+        padding-right:15rem;
         padding-bottom:2rem;
         padding-top:7rem;
     }
     .text-element{
-        padding-left:9rem;
-        padding-right:9rem;
+        padding-left:15rem;
+        padding-right:15rem;
     }
     .citation-element{
-        padding-left:9rem;
-        padding-right:9rem;
+        padding-left:15rem;
+        padding-right:15rem;
     }
     .interactive-element{
-        padding-left:9rem;
-        padding-right:9rem;
+        padding-left:15rem;
+        padding-right:15rem;
     }
     .branding-element{
-        padding-left:9rem;
-        padding-right:9rem;
+        padding-left:15rem;
+        padding-right:15rem;
     }
     .branding-element-fonts{
-        padding-left:9rem;
-        padding-right:9rem;
+        padding-left:15rem;
+        padding-right:15rem;
     }
 }
 
@@ -437,21 +437,9 @@ a{
     bottom:1rem;
     right:1rem;
     left:1rem;
-    color:white;
-    position: absolute;
+    padding-top:9rem;
+    position: relative;
     text-align: center;
-}
-
-.project-info{
-    padding-top:10rem;
-}
-
-.project-info h2{
-    text-transform: uppercase;
-    letter-spacing: 0.25em;
-}
-
-.project-holder .project-info-bg{
     cursor: pointer;
     position: absolute;
     opacity:0;
@@ -459,8 +447,28 @@ a{
     -moz-transition: all 0.45s ease-in-out;
     -o-transition: all 0.45s ease-in-out;
     -ms-transition: all 0.45s ease-in-out;
-    transition: all 0.45s ease-in-out;   
+    transition: all 0.45s ease-in-out;  
 }
+
+.link-spanner{
+    position:absolute; 
+    width:100%;
+    height:100%;
+    top:0;
+    left: 0;
+    z-index: 1;
+}
+
+.project-info{
+    color:white;
+    text-decoration: none;
+}
+
+.project-info h2{
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+}
+
 
 .project-holder:hover .project-info-bg{
     opacity:1;
@@ -517,8 +525,8 @@ mark{
 
 @media (min-width:630px){
     .project-description{
-        padding-right:9rem;
-        padding-left:9rem;
+        padding-right:15rem;
+        padding-left:15rem;
     }
 }
 
@@ -530,8 +538,8 @@ mark{
 
 @media (min-width:630px){
     .project-description-img{
-        padding-right:9rem;
-        padding-left:9rem;
+        padding-right:15rem;
+        padding-left:15rem;
     }
 }
 
