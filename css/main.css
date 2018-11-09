@@ -516,10 +516,16 @@ mark{
 
 @media (max-width:630px){
     .project-description{
-        padding:2rem;
+        padding-right:2rem;
+        padding-left:2rem;
+        clear:both;
     }
     mark{
         float:left;
+    }
+
+    .project-description-img{
+        padding:2rem;
     }
 }
 
@@ -527,21 +533,18 @@ mark{
     .project-description{
         padding-right:15rem;
         padding-left:15rem;
+        padding-bottom:1rem;
+        padding-top:1rem;
     }
-}
 
-@media (max-width:630px){
-    .project-description-img{
-        padding:2rem;
-    }
-}
-
-@media (min-width:630px){
     .project-description-img{
         padding-right:15rem;
         padding-left:15rem;
+        padding-bottom:1rem;
+        padding-top:1rem;
     }
 }
+
 
 /* ------------------------------------------------------------------------------------------------------------------------------ */
 /* Footer */
