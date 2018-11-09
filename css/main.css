@@ -220,6 +220,26 @@ a{
     transform:scale(1.025);
 }
 
+.contact-me-wrapper a{
+    float:right;
+    display:block;
+    text-align: center;
+    border:1px solid transparent;
+    padding:0.5rem;
+    transition:all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+}
+
+.contact-me-wrapper a:hover{
+    padding:0.5rem;
+    border:2px solid #FFD046;
+    visibility: visible;
+}
+
+
 /* When the screen is less than 630 pixels wide, hide all links.  */
 @media (max-width: 630px) {
     .nav-bar a:not(:first-child) {display: none;}
@@ -246,6 +266,16 @@ a{
     }
     .nav-item-border{
         border-top:1px solid rgba(128, 128, 128, 0.589);
+    }
+}
+
+@media (max-width:800px){
+    .contact-me-wrapper{
+        visibility: hidden;
+        clear:both;
+        padding:0;
+        margin:0;
+        position:absolute;
     }
 }
 
