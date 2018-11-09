@@ -67,7 +67,7 @@ code{
     }
 }
 
-@media (min-width: 630px){
+@media (min-width: 860px){
     .border-line{
         border:none;
         margin-top:2rem;
@@ -97,6 +97,39 @@ code{
     .branding-element-fonts{
         padding-left:15rem;
         padding-right:15rem;
+    }
+}
+
+@media (min-width:630px) and (max-width:860px){
+    .border-line{
+        border:none;
+        margin-top:2rem;
+    }
+    .heading-element{
+        padding-left:9rem;
+        padding-right:9rem;
+        padding-bottom:2rem;
+        padding-top:7rem;
+    }
+    .text-element{
+        padding-left:9rem;
+        padding-right:9rem;
+    }
+    .citation-element{
+        padding-left:9rem;
+        padding-right:9rem;
+    }
+    .interactive-element{
+        padding-left:9rem;
+        padding-right:9rem;
+    }
+    .branding-element{
+        padding-left:9rem;
+        padding-right:9rem;
+    }
+    .branding-element-fonts{
+        padding-left:9rem;
+        padding-right:9rem;
     }
 }
 
@@ -269,13 +302,19 @@ a{
     }
 }
 
-@media (max-width:800px){
+@media (max-width:810px){
     .contact-me-wrapper{
         visibility: hidden;
         clear:both;
         padding:0;
         margin:0;
         position:absolute;
+        opacity:0;
+    }
+
+    .contact-me-wrapper a{
+        visibility: hidden;
+        opacity:0;
     }
 }
 
@@ -463,10 +502,10 @@ a{
 
 .project-info-bg{
     background-color: rgba(0,0,0,0.65);
-    top:1rem;
-    bottom:1rem;
-    right:1rem;
-    left:1rem;
+    top:2rem;
+    bottom:2rem;
+    right:2rem;
+    left:2rem;
     padding-top:9rem;
     position: relative;
     text-align: center;
