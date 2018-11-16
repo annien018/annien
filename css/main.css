@@ -547,6 +547,20 @@ a{
     }
 }
 
+@media (min-width:1824px){
+    .about-me-text{
+        padding-right:20rem;
+        font-size:150%;
+    }
+    .about-me-image{
+        padding-left:15rem;
+    }
+    .me-image{
+        width:40rem;
+        max-width:40rem;
+    }
+}
+
 /* ------------------------------------------------------------------------------------------------------------------------------ */
 /* Home/ Projects Showcase */
 .prj-img{
