@@ -23,9 +23,7 @@ code{
 }
 .code-div{
     background-color: #EEE;
-
 }
-
 
 .ul-citation{
     padding:1rem;
@@ -33,7 +31,7 @@ code{
 }
 
 .section-border{
-    border-top:1px solid rgba(128, 128, 128, 0.404);
+    /* border-top:1px solid rgba(128, 128, 128, 0.404); */
     padding-bottom:5rem;
 }
 
@@ -65,8 +63,21 @@ code{
     .branding-element-fonts{
         padding: 1rem;
     }
+    .project-description{
+        padding-right:2rem;
+        padding-left:2rem;
+        clear:both;
+    }
+    mark{
+        float:left;
+    }
+
+    .project-description-img{
+        padding:2rem;
+    }
 }
 
+/* Large Ipad size */
 @media (min-width: 860px){
     .border-line{
         border:none;
@@ -97,6 +108,19 @@ code{
     .branding-element-fonts{
         padding-left:15rem;
         padding-right:15rem;
+    }
+    .project-description{
+        padding-right:15rem;
+        padding-left:15rem;
+        padding-bottom:1rem;
+        padding-top:1rem;
+    }
+
+    .project-description-img{
+        padding-right:15rem;
+        padding-left:15rem;
+        padding-bottom:1rem;
+        padding-top:1rem;
     }
 }
 
@@ -131,8 +155,46 @@ code{
         padding-left:9rem;
         padding-right:9rem;
     }
+    .project-description{
+        padding-right:9rem;
+        padding-left:9rem;
+        padding-bottom:1rem;
+        padding-top:1rem;
+    }
+
+    .project-description-img{
+        padding-right:9rem;
+        padding-left:9rem;
+        padding-bottom:1rem;
+        padding-top:1rem;
+    }
 }
 
+
+/* Super large screens */
+@media (min-width:1824px){
+    .nav-item{
+        padding-left:1.75rem;
+        padding-right:1.75rem;
+        font-size:150%;
+    }
+    .top-nav{
+        padding-top:2rem!important; 
+        padding-bottom:0.75rem!important;
+    }
+    .logo-link{
+        margin-top:0.6rem;
+        padding-left:4rem!important;
+    }
+    .contact-me-wrapper a{
+        font-size: 150%;
+        padding:1rem;
+        padding-right:4rem!important;
+    }
+    .heading-element{
+        font-size:190%;
+    }
+}
 
 /* ------------------------------------------------------------------------------------------------------------------------------ */
 /* Text */
@@ -326,7 +388,7 @@ a{
     .top-nav{
         z-index: 999;
         position: fixed;
-        background-color:white;
+        background-color:rgba(255, 255, 255, 0.877);
         border-bottom:1px solid rgba(128, 128, 128, 0.507);
         top:0;
         left:0;
@@ -380,6 +442,9 @@ a{
         padding-top:2rem;
         clear:both;
     }
+    .heading{
+        border:none;
+    }
 }
 
 .header-link{
@@ -415,8 +480,6 @@ a{
     background-color: #c44829;
     color:white;
   }
-
-
 
 
 
@@ -583,37 +646,6 @@ mark{
     margin-top:-0.5rem;
 }
 
-@media (max-width:630px){
-    .project-description{
-        padding-right:2rem;
-        padding-left:2rem;
-        clear:both;
-    }
-    mark{
-        float:left;
-    }
-
-    .project-description-img{
-        padding:2rem;
-    }
-}
-
-@media (min-width:630px){
-    .project-description{
-        padding-right:15rem;
-        padding-left:15rem;
-        padding-bottom:1rem;
-        padding-top:1rem;
-    }
-
-    .project-description-img{
-        padding-right:15rem;
-        padding-left:15rem;
-        padding-bottom:1rem;
-        padding-top:1rem;
-    }
-}
-
 
 /* ------------------------------------------------------------------------------------------------------------------------------ */
 /* Footer */
@@ -622,6 +654,8 @@ footer{
     overflow: hidden;
     background-color: black;
     color:white;
+    width:100%;
+    margin:auto;
 }
 
 .footer-item-contact{
@@ -667,11 +701,15 @@ footer{
     }
 }
 
-@media (min-width:1950px){
+@media (min-width:1824px){
     footer{
-        position: absolute;
-        bottom:0;
-        padding:0;
-        width:100%;
+        padding-bottom:2rem;
+    }
+    .footer-item-contact{
+        font-size:170%;
+        padding-right:7rem;
+    }
+    .footer-item-name{
+        font-size:150%;
     }
 }
