@@ -336,7 +336,7 @@ a{
     -ms-transition: all 0.3s ease-in-out;
 }
 
-.contact-me-wrapper a:hover{
+.contact-me-wrapper a:hover , .contact-me-wrapper a:focus{
     padding:0.5rem;
     border:2px solid #FFD046;
     visibility: visible;
@@ -656,7 +656,7 @@ a{
 }
 
 
-.project-holder:hover .project-info-bg{
+.project-holder:hover .project-info-bg , .project-holder:focus .project-info-bg{
     opacity:1;
 }
 
