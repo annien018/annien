@@ -250,7 +250,7 @@ a{
 }
 
 .heading{
-    border-bottom:5px solid rgba(128, 128, 128, 0.123);
+    border-bottom:5px solid rgba(255, 209, 70, 0.596);
     padding-bottom:1rem;
 }
 
@@ -661,7 +661,6 @@ a{
 
     .project-info-bg{
         padding:0;
-        font-size:50%;
     }
 }
 
