@@ -609,6 +609,9 @@ a{
 .project-info-bg-visible{
     background-color:transparent;
     border:2px solid white;
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
     top:2rem;
     bottom:2rem;
     right:2rem;
