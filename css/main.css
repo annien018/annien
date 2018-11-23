@@ -366,6 +366,9 @@ a{
     .nav-item-border{
         border-top:1px solid rgba(128, 128, 128, 0.589);
     }
+    .bottom-border{
+        border-bottom: 1px solid rgba(128, 128, 128, 0.589);
+    }
 }
 
 @media (max-width:810px){
