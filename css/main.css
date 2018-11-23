@@ -655,11 +655,13 @@ a{
 
 @media (max-width:630px){
     .project-info-bg-visible{
-        line-height:5rem;
+        line-height:1rem;
+        font-size:50%;
     }
 
     .project-info-bg{
         padding:0;
+        font-size:50%;
     }
 }
 
