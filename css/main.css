@@ -655,7 +655,7 @@ a{
 
 @media (max-width:630px){
     .project-info-bg-visible{
-        line-height:1rem;
+        line-height:0.5rem;
         font-size:50%;
     }
 
