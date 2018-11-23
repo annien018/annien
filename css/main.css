@@ -653,6 +653,12 @@ a{
     opacity:1;
 }
 
+@media (max-width:630px){
+    .project-info-bg-visible{
+        line-height:2rem;
+    }
+}
+
 @media (min-width:1007px){
     .project-holder{
         max-width: 33.33%;
