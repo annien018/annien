@@ -441,7 +441,7 @@ a{
 }
 
 .social-media-icon:hover, .social-media-icon:focus{
-    background-color: #FFD046;
+    background-color: rgba(128, 128, 128, 0.384);
     color:black;
 }
 
@@ -721,7 +721,7 @@ mark{
 .p-img-description{
     opacity:0.5;
     font-size:0.9em;
-    margin-top:-0.5rem;
+    padding-top:0.5rem;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------ */
@@ -738,8 +738,8 @@ mark{
 footer{
     clear: both;
     overflow: hidden;
-    background-color: black;
-    color:rgba(255, 255, 255, 0.479);
+    background-color: #FFD046;
+    color:rgba(0, 0, 0, 0.466);
     width:100%;
     margin:auto;
     bottom:0;
@@ -756,7 +756,7 @@ footer{
 
 @media (max-width:630px){
     footer{
-        padding-bottom:1rem;
+        padding-bottom:2rem;
     }
     .footer-item-contact{
         text-align: center;
@@ -774,7 +774,7 @@ footer{
 @media (min-width:630px){
     footer{
         clear:both;
-        padding-top:8rem;
+        padding-top:5rem;
         padding-bottom:2rem;
     }
     .footer-item-contact{
@@ -795,7 +795,7 @@ footer{
 @media (min-width:1824px){
     footer{
         clear:both;
-        padding-top:8rem;
+        padding-top:5rem;
         padding-bottom:2rem;
     }
     .footer-item-contact{
