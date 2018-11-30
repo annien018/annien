@@ -798,8 +798,8 @@ footer{
 @media (min-width:1824px){
     footer{
         clear:both;
-        padding-top:5rem;
-        padding-bottom:2rem;
+        padding-top:11rem;
+        padding-bottom:6rem;
     }
     .footer-item-contact{
         font-size:170%;
