@@ -20,7 +20,7 @@
                 <div class="nav-bar-div">
                     <a class="logo-link" href="index.html"><img class="logo" src="img/logo.svg" alt="logo-img"></a>
                     <a class="nav-item nav-item-border" href="index.html">Projects</a>
-                    <a class="nav-item nav-item-border" href="style-guide.html">Guide</a>
+                    <a class="nav-item nav-item-border" href="style-guide.html">Style Guide</a>
                     <a class="nav-item nav-item-border border-bottom" href="about.html">About</a>
 
                     <div class="contact-me-wrapper">
@@ -40,8 +40,19 @@
 
     <section class="page-heading section-border">
         <div class="heading-element">
-            <h1 class="heading text-h1-large">This is my Style Guide.</h1>
+            <h1 class="text-h1-small"><a href="" class="typewrite" data-period="2000" data-type='[ "Hello."]'>
+                    <span class="wrap"></span>
+                </a></h1>
+            <h1 class="heading text-h1-large"><span class="span-block">This is my style guide.</span></h1>
             <a class="header-link" href="about.html">More about me &larr;</a>
+
+            <div class="code-div">
+                <code>&lt;h1 class="text-h1-small"&gt;&lt;a href="" class="typewrite" data-period="2000" data-type='[ "Hello."]'&gt;</code>
+                <code>&lt;span class="wrap"&gt;&lt;/span&gt;</code>
+                <code>&lt;/a&gt;&lt;/h1&gt;</code>
+                <code>&lt;h1 class="heading text-h1-large"&gt;&lt;span class="span-block"&gt;This is my style guide.&lt;/span&gt;&lt;/h1&gt;</code>
+                <code>&lt;a class="header-link" href="about.html"&gt;More about me &larr;&lt;/a&gt;</code>
+            </div>
         </div>
     </section>
 
@@ -91,6 +102,28 @@
 
     <section id="interactive" class="section-border">
         <div class="interactive-element">
+            <h2>Navigation</h2>
+            <div class="code-div">
+                <code>&lt;nav id="myNav" class="nav-bar"&gt;</code>
+                <code>&lt;div class="nav-bar-div"&gt;</code>
+                <code>&lt;a class="logo-link" href="index.html"&gt;&lt;img class="logo" src="img/logo.svg" alt="logo-img"&gt;&lt;/a&gt;</code>
+                <code>&lt;a class="nav-item nav-item-border" href="index.html"&gt;Projects&lt;/a&gt;</code>
+                <code>&lt;a class="nav-item nav-item-border" href="style-guide.html"&gt;Style Guide&lt;/a&gt;</code>
+                <code>&lt;a class="nav-item nav-item-border border-bottom" href="about.html"&gt;About&lt;/a&gt;</code>
+
+                <code>&lt;div class="contact-me-wrapper"&gt;</code>
+                <code>&lt;a href="mailto:nnpa185@gmail.com" target="_blank"&gt;Contact Me&lt;/a&gt;</code>
+                <code>&lt;/div&gt;</code>
+                <code>&lt;/div&gt;</code>
+
+
+                <code>&lt;div class="menu-icon-div"&gt;</code>
+                <code>&lt;a class="menu-icon" href="javascript:void(0);" onclick="myFunction()"&gt;</code>
+                <code>&lt;i class="fa fa-bars"&gt;&lt;/i&gt;</code>
+                <code>&lt;/a&gt;</code>
+                <code>&lt;/div&gt;</code>
+                <code>&lt;/nav&gt;</code>
+            </div>
             <h2>Interactive Elements</h2>
             <h3>Button</h3>
             <a href="#interactive" class="btn">Submit</a>
@@ -151,6 +184,106 @@
             <p class="opensans-font">Open Sans: I choose this font for paragraphs because it is easy to read and scan
                 through, keeping in mind my target audience would be future employers, who need to scan and judge my
                 work quickly.</p>
+        </div>
+    </section>
+
+    <section class="section-border">
+        <div class="branding-element">
+            <h2>Tools</h2>
+            <mark>Adobe Illustrator</mark>
+            <mark>Adobe Photoshop</mark>
+            <div class="code-div">
+                <code>&lt;mark&gt;Adobe Illustrator&lt;mark&gt;</code>
+                <code>&lt;mark&gt;Adobe Photoshop&lt;mark&gt;</code>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section-border">
+        <div class="branding-element">
+            <h2>Project Image Example</h2>
+        </div>
+        <div class="project-showcase-element">
+            <div class="project-holder">
+                <div class="project-img">
+                    <a href="p1-cacti-addict.html"><img class="prj-img" src="img/p1-img-title.jpg" alt="project-img-1"></a>
+                </div>
+
+                <div class="project-info-bg ">
+                    <a class="project-info" href="p1-cacti-addict.html">
+                        <span class="link-spanner"></span>
+                        <h2>Cacti Addict</h2>
+                        <p>Logo Design - 2018</p>
+                    </a>
+                </div>
+                <div class="project-info-bg-visible">
+                    <span class="link-spanner"></span>
+                    <p>Logo Design - 2018</p>
+                </div>
+            </div>
+
+            <div class="project-holder">
+                <div class="project-img">
+                    <a href="p2-tokyo-light.html"><img class="prj-img" src="img/p2-img-title.jpg" alt="project-img-2"></a>
+                </div>
+
+                <div class="project-info-bg">
+                    <a class="project-info" href="p2-tokyo-light.html">
+                        <span class="link-spanner"></span>
+                        <h2>Tokyo Light</h2>
+                        <p>Product Design - 2018</p>
+                    </a>
+                </div>
+
+                <div class="project-info-bg-visible">
+                    <span class="link-spanner"></span>
+                    <p>Product Design - 2018</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="branding-element">
+            <div class="code-div">
+                <code>&lt;div class="project-showcase-element"&gt;</code>
+                <code>&lt;div class="project-holder"&gt;</code>
+                <code>&lt;div class="project-img"&gt;</code>
+                <code>&lt;a href="p1-cacti-addict.html"&gt;&lt;img class="prj-img" src="img/p1-img-title.jpg" alt="project-img-1"&gt;&lt;/a&gt;</code>
+                <code>&lt;/div&gt;</code>
+
+                <code>&lt;div class="project-info-bg "&gt;</code>
+                <code>&lt;a class="project-info" href="p1-cacti-addict.html"&gt;</code>
+                <code>&lt;span class="link-spanner"&gt;&lt;/span&gt;</code>
+                <code>&lt;h2&gt;Cacti Addict&lt;/h2&gt;</code>
+                <code>&lt;p&gt;Logo Design - 2018&lt;/p&gt;</code>
+                <code>&lt;/a&gt;</code>
+                <code>&lt;/div&gt;</code>
+                <code>&lt;div class="project-info-bg-visible"&gt;</code>
+                <code>&lt;span class="link-spanner"&gt;&lt;/span&gt;</code>
+                <code>&lt;p&gt;Logo Design - 2018&lt;/p&gt;</code>
+                <code>&lt;/div&gt;</code>
+                <code>&lt;/div&gt;</code>
+                <code>&lt;/div&gt;</code>
+
+                <code>&lt;div class="project-holder"&gt;</code>
+                <code>&lt;div class="project-img"&gt;</code>
+                <code>&lt;a href="p2-tokyo-light.html"&gt;&lt;img class="prj-img" src="img/p2-img-title.jpg" alt="project-img-2"&gt;&lt;/a&gt;</code>
+                <code>&lt;/div&gt;</code>
+
+                <code>&lt;div class="project-info-bg"&gt;</code>
+                <code>&lt;a class="project-info" href="p2-tokyo-light.html"&gt;</code>
+                <code>&lt;span class="link-spanner"&gt;&lt;/span&gt;</code>
+                <code>&lt;h2&gt;Tokyo Light&lt;/h2&gt;</code>
+                <code>&lt;p&gt;Product Design - 2018&lt;/p&gt;</code>
+                <code>&lt;/a&gt;</code>
+                <code>&lt;/div&gt;</code>
+
+                <code>&lt;div class="project-info-bg-visible"&gt;</code>
+                <code>&lt;span class="link-spanner"&gt;&lt;/span&gt;</code>
+                <code>&lt;p&gt;Product Design - 2018&lt;/p&gt;</code>
+                <code>&lt;/div&gt;</code>
+                <code>&lt;/div&gt;</code>
+            </div>
         </div>
     </section>
 

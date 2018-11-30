@@ -23,6 +23,7 @@ code{
 }
 .code-div{
     background-color: #EEE;
+    clear:both;
 }
 
 .ul-citation{
@@ -32,7 +33,9 @@ code{
 
 .section-border{
     /* border-top:1px solid rgba(128, 128, 128, 0.404); */
+    padding-top:1rem;
     padding-bottom:5rem;
+    clear:both;
 }
 
 .branding-element-color{
